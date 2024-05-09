@@ -5,7 +5,7 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title in the tab</title>
+		<title>Temperature Converter</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
@@ -14,9 +14,12 @@
 	<body>
 		<label for="tvalue">Enter temperature value:</label>
 		<input type="number" name="tvalue" id="tvalue"><br>
-		<input type="radio" name="tunit" value="Celsius">
-		<input type="radio" name="tunit" value="Farenheit">
-		<input type="radio" name="tunit" value="Kelvin">
+		<input type="radio" id="Celsius" name="tname">Celsius
+		<input type="radio" id="Fahrenheit" name="tname">Fahrenheit
+		<input type="radio" id="Kelvin" name="tname">Kelvin
+	
+
+		<h2 id="seeHere">Answer</h2>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
